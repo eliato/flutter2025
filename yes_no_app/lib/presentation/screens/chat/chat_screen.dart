@@ -20,7 +20,7 @@ class ChatScreen extends StatelessWidget {
             backgroundImage: NetworkImage('https://images.crunchbase.com/image/upload/c_thumb,h_256,w_256,f_auto,g_face,z_0.7,q_auto:eco,dpr_1/qq2ofxh8q7yvfgk9iixo'),
           ),
         ),
-        title: const Text('Chat ON'), 
+        title: const Text('Chat ON', style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold)), 
         centerTitle: false),
       body: _ChatView(),
     );
